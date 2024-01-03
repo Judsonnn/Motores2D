@@ -31,22 +31,10 @@ public class GameManagerB : MonoBehaviour
     }
     void Start()
     {
-      SpawnarNovoJogador();
-      AtualizarContador();
+        
     }
 
-    public void AtualizarContador()
-    {
-        contador.text = $"Vidas:{vidas}"; 
-    }
-
-    public void spawnarNovoJogador()
-    {
-        GameObject playerObj = Instantiate(playerPrefab,playerSpawnPoint.position, Quaternion.Identity);
-        GameObject ballObj = Instatiate(ballPrefab,ballSpawnPoint.position, Quaternion.Identity);
-    }
-
-
+    // Update is called once per frame
     void Update()
     {
         
