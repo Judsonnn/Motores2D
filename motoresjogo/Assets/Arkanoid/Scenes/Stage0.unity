@@ -658,6 +658,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 519901724}
+  - component: {fileID: 519901725}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -680,6 +681,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519901725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519901723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149996b0bb42a5343bc5dfc2d81a03f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidas: 2
+  tijolosRestantes: 0
+  playerPrefab: {fileID: 7527143823932799042, guid: b30e353b1db98fe469cc519e6849cf8b, type: 3}
+  ballPrefab: {fileID: 6110541468373975062, guid: 987e3078c70e7b84e8d7d6644901936d, type: 3}
+  playerSpawnPoint: {fileID: 420976635}
+  ballSpawnPoint: {fileID: 1379122785}
+  playerAtual: {fileID: 0}
+  ballAtual: {fileID: 0}
+  contador: {fileID: 910812739}
+  msgFinal: {fileID: 1079138716}
+  segurando: 0
 --- !u!1001 &522337996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1565,7 +1589,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379122784}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.57359, y: -2.61, z: 0.018655142}
+  m_LocalPosition: {x: -1.57359, y: -1.68, z: 0.018655142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
